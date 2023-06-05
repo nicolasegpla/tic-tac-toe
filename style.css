@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Rajdhani', sans-serif;
+}
+body {
+    color: #FACFCE;
+    background-color: #023535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-principal {
+    min-width: 21.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-triki {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 3.125rem;
+    text-align: center;
+    margin-top: 80px;
+}
+.game {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-turno {
+    width: 12.1875rem;
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .625rem 0 .625rem;
+    
+}
+.player-1,
+.player-2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #008F8C;
+}
+
+.board {
+    width: 11.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1.875rem;
+    gap: .3125rem;
+    
+}
+.box {
+    width: 3.75rem;
+    height: 3.75rem;
+    border: .1875rem solid #008F8C;
+    border-radius: .9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3125rem;
+    cursor: pointer;
+}
+.container-win {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 0 1.25rem;
+}
+.jugadas {
+    color: #FACFCE;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.win,
+.lost {
+    font-size: 2.125rem;
+}
+.turn {
+    color: #FACFCE;
+    font-weight: 600;
+    transform: scale(1.2);
+}
+.jugar-de-nuevo {
+    width: 11.25rem;
+    height: 2.125rem;
+    margin-top: 1.25rem;
+    border: none;
+    border-radius: .625rem;
+    background-color: #008F8C;
+    color: #FACFCE;
+    font-size: 1.125rem;
+    cursor: pointer;
+    box-shadow: #015958 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.display {
+    display: none;
+}
